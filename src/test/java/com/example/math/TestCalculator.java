@@ -13,8 +13,6 @@ public class TestCalculator {
         calculator = new Calculator();
     }
 
-
-
     @Test
     public void add() {
         assertEquals(5, calculator.add(2, 3));
@@ -30,6 +28,4 @@ public class TestCalculator {
         assertEquals(20, calculator.multiply(10, 2));
     }
 
-
-    
 }
