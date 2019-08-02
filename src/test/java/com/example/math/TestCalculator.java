@@ -10,6 +10,7 @@ public class TestCalculator {
 
     @Before
     public void SetUp() throws  Exception{
+        
         calculator = new Calculator();
     }
 
